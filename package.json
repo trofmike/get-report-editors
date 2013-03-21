@@ -1,0 +1,20 @@
+{
+  "author": "Mikhail Trofimov <trof.mike@gmail.com>",
+  "name": "get-report-editors",
+  "description": "Get report editors from json from BARS SVODY extJs configs",
+  "version": "0.0.1",
+  "repository": {
+    "url": ""
+  },
+  "dependencies"  : {
+    "underscore"  : ">=1.4.3"
+  },
+  "devDependencies": {},
+  "bin": {
+    "get-editors": "./bin/get-editors"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
