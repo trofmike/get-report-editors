@@ -1,20 +1,37 @@
 {
-  "author": "Mikhail Trofimov <trof.mike@gmail.com>",
-  "name": "get-report-editors",
+  "name": "get-editors",
   "description": "Get report editors from json from BARS SVODY extJs configs",
   "version": "0.0.1",
+  "homepage": "https://github.com/trofmike/get-report-editors",
+  "author": {
+    "name": "Mikhail Trofimov"
+  },
   "repository": {
-    "url": ""
+    "type": "git",
+    "url": "https://github.com/trofmike/get-report-editors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trofmike/get-report-editors/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/trofmike/get-report-editors/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/get-editors",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "get-editors test"
   },
   "dependencies"  : {
     "underscore"  : ">=1.4.3"
   },
-  "devDependencies": {},
+  "preferGlobal": "true",
   "bin": {
-    "get-editors": "./bin/get-editors"
+    "get-editors" : "lib/get-editors.js"
   },
-  "optionalDependencies": {},
-  "engines": {
-    "node": "*"
-  }
+  "keywords": []
 }
