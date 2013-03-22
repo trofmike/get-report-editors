@@ -5,20 +5,24 @@ Get report editors from json from BARS SVODY extJs configs
 ## Getting Started
 Install the module with: `npm install get-editors`
 
-## Documentation
-_(Coming soon)_
+## options
 
-## Examples
-```bash
-get-editors path_to_json.json
-get-editors //if you have folder full of json's
+-c or --clientCode — makes code for client-side like
+```javascript
+1: ["ИННЮЛ", "КПП", "Стр", "НомКорр", "Период", "ОтчетГод", "КодНО", "ПоМесту", "НаимОрг",
+    "ОКВЭД", "ФормРеорг", "Тлф", "КоличествоСтраниц", "КоличествоПриложений", "ПрПодп",
+    "ПодписантФИО", "СвПредНаимОрг", "ДатаДок", "СвПредНаимДок"],
 ```
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt](https://github.com/gruntjs/grunt).
-
-## Release History
-_(Nothing yet)_
+## Examples
+If you have folder full of json's, make just
+```bash
+get-editors
+```
+or if you want to build one file, use
+```bash
+get-editors file.json
+```
 
 ## License
 Copyright (c) 2013 Mikhail Trofimov  
