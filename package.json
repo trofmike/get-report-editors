@@ -1,7 +1,7 @@
 {
   "name": "get-editors",
   "description": "Get report editors from json from BARS SVODY extJs configs",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "homepage": "https://github.com/trofmike/get-report-editors",
   "author": {
     "name": "Mikhail Trofimov"
@@ -27,7 +27,8 @@
     "test": "get-editors test"
   },
   "dependencies"  : {
-    "underscore"  : ">=1.4.3"
+    "underscore"  : ">=1.4.3",
+    "js-beautify" : "latest"
   },
   "preferGlobal": "true",
   "bin": {
